@@ -9,45 +9,36 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		// Creating Objects of all the Departments
-		SuperDepartment superDepartment = new SuperDepartment();
+		// Creating Objects of all the Departments Except Super Department (Not Needed for this Problem Statement)
+		
 		AdminDepartment adminDepartment = new AdminDepartment();
 		HrDepartment hrDepartment = new HrDepartment();
 		TechDepartment techDepartment = new TechDepartment();
 		
-		// Displaying the functionalities of Super Department
-		System.out.println("Details of the Super Department are as follow:");
-		System.out.println(superDepartment.departmentName());
-		System.out.println(superDepartment.getTodaysWork());
-		System.out.println(superDepartment.getWorkDeadline());
-		System.out.println(superDepartment.isTodayAHoliday());
-		System.out.println("_____________________________________________________________");
 		
-		// Displaying the functionalities of Admin Department
-		System.out.println("\nDetails of the Admin Department are as follow:");
-		System.out.println(adminDepartment.departmentName());
+		// Displaying the functionalities of ADMIN Department
+		System.out.println("\nWelcome to " + adminDepartment.departmentName());
 		System.out.println(adminDepartment.getTodaysWork());
 		System.out.println(adminDepartment.getWorkDeadline());
 		System.out.println(adminDepartment.isTodayAHoliday());
 		System.out.println("_____________________________________________________________");
 		
-		// Displaying the functionalities of Hr Department
-		System.out.println("\nDetails of the Hr Department are as follow:");
-		System.out.println(hrDepartment.departmentName());
+		// Displaying the functionalities of HR Department
+		System.out.println("\nWelcome to " + hrDepartment.departmentName());
+		System.out.println(hrDepartment.doActivity());
 		System.out.println(hrDepartment.getTodaysWork());
 		System.out.println(hrDepartment.getWorkDeadline());
-		System.out.println(hrDepartment.doActivity());
 		System.out.println(hrDepartment.isTodayAHoliday());
 		System.out.println("_____________________________________________________________");
 		
-		// Displaying the functionalities of Tech Department
-		System.out.println("\nDetails of the Tech Department are as follow:");
-		System.out.println(techDepartment.departmentName());
+		// Displaying the functionalities of TECH Department
+		System.out.println("\nWelcome to "+ techDepartment.departmentName());
 		System.out.println(techDepartment.getTodaysWork());
 		System.out.println(techDepartment.getWorkDeadline());
 		System.out.println(techDepartment.getTechStackInformation());
 		System.out.println(techDepartment.isTodayAHoliday());
 		System.out.println("_____________________________________________________________");
+		
 		
 		
 	}
