@@ -1,2 +1,2 @@
 # G2-B1_FOP_GradedAssignement1
-Group Assignment 1 - Foundations of Programming - Great Learning
+1st Group Project - Foundations of Programming (OOP) | Great Learning | IIT Roorkee
